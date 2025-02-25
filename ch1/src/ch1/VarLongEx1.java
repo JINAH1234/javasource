@@ -25,7 +25,7 @@ public class VarLongEx1 {
         Long money = 10000000000L;
 
         //변수값만 변경
-        age = 30;
+        age = 30L;
 
        
         // + = 산술연산이지만 문자랑 붙을땐 연결의 의미로 사용 되기도 함

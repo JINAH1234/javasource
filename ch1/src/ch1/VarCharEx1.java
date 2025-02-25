@@ -1,6 +1,10 @@
 package ch1;
 
-public class VarCharEx1 {public static void main(String[] args) {
+public class VarCharEx1 {
+    
+    public static void main(String[] args) {
+
+
     //문자: 글자 한개'ㅁ', '웅', 공백도 문자
     //문자열: 글자 한개 ~ 여러개=> "응", "ㅁㅇㄹ","  (공백두개)"
 
@@ -23,7 +27,7 @@ public class VarCharEx1 {public static void main(String[] args) {
     char ch3 = 'A';
     unicode = ch3;
     System.out.println("ch3 = "+ch3);
-    System.out.printf("ch3 = %c"\n)
+    System.out.printf("ch3 = %c\n",ch3);
     System.out.println("unicode = "+unicode); // 65
 }
     

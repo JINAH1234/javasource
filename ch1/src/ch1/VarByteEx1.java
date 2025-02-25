@@ -31,7 +31,7 @@ public class VarByteEx1 {
         // + = 산술연산이지만 문자랑 붙을땐 연결의 의미로 사용 되기도 함
 
         System.out.println("나이 : "+age + ", 최고속도 :" + maxSpeed);
-        System.out.printf(skdl : %d, 최고속도  : %d\n",age,maxspeed);
+        System.out.printf("나이 : %d, 최고속도  : %d\n",age,maxSpeed);
         
         System.out.println(age + maxSpeed);
 

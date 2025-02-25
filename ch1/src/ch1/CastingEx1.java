@@ -10,12 +10,12 @@ public class CastingEx1 {public static void main(String[] args) {
     int score =(int)d;
     System.out.println("score = "+score);
 
-    int inValue =10;
+    int intValue =10;
     double dblValue = 5.5;
 
     //int + double => double 큰타입으로 계산 됨
-    int result = intValue +(int)dbValue;
-    System.out.print("result = %d\n",result);
+    int result = intValue +(int)dblValue;
+    System.out.printf("result = %d\n",result);
 
     float f1 = 9.1234567f;
     double d1 = 9.1234567;
