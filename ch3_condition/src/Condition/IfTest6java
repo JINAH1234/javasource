@@ -1,0 +1,52 @@
+package Condition;
+
+import java.util.Scanner;
+
+
+// if(조건문){}
+//중첩가능
+
+
+
+
+public class IfTest5 {
+    public static void main(String[] args) {
+      //if (Condition){
+        //if(Condition){
+        //  else {
+
+          
+        
+      
+ 
+      Scanner scanner = new Scanner(System.in);
+      System.out.println("점수입력");
+
+      String input = scanner.nextLine();
+
+      int score = Integer.parseInt(input);
+
+      char grade = ' ', opt='0';
+      if(score >=98) {
+        grade = 'A';
+        if(score>=98){
+          opt ='+';
+        }else if (score >=80){
+          grade = 'B';
+
+          if(score>=88){
+            opt='+'
+            else if(score<84){
+              opt='-';
+            }
+            else{
+              grade='C';
+            
+          
+            }
+          }
+        
+      }
+
+    }
+
