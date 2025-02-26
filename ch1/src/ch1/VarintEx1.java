@@ -33,7 +33,7 @@ public class VarintEx1 {
 
 
         //형식화된 출력(엔터는 안들어가 있음)
-        //%b : boolean, %d :정수 %f : 실수, %ㄴ : 문자열, %C : 문자
+        //%b : boolean, %d :정수, %f : 실수, %s : 문자열, %C : 문자
         System.out.printf("나이 : %10d, 최고속도 : %d, max : %d\n",age,maxSpeed,max);
 
     }

@@ -11,7 +11,7 @@ public class varFlotEx1 {public static void main(String[] args) {
     System.out.println("score1 = " +score1);
     System.out.println("score2 = " +score2);
     //소수점 2째자리까지 표현
-    System.out.printf("score2 = %f=n",score2);
+    System.out.printf("score2 = %f\n",score2);
 
 }
     
