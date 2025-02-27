@@ -6,11 +6,11 @@ public class SwitchTest2 {
        char grade = 'B';
 
        switch (grade) {
-         case 'A' 
+         case 'A':
          case 'a':
             System.out.println("우수회원");
             break;
-         case 'B' 
+         case 'B':
          case 'b':
             System.out.println("일반회원");
             break;
